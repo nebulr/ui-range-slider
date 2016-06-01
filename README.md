@@ -22,6 +22,7 @@ Add the module dependency to your project
 Sample Usage :
 ```
 <script>
+...
 $scope.options = {
 	start: [ 20, 80 ], // Handle start position
 	step: 10, // Slider moves in increments of '10'
@@ -39,6 +40,7 @@ $scope.options = {
 		density: 2
 	}
 };
+...
 </script>
 <range-slider options="options">
 </range-slider>
