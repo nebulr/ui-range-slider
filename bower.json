@@ -1,0 +1,31 @@
+{
+  "name": "angular-ui-range-slider",
+  "version": "1.0.0",
+  "authors": [
+    "James Meyer <james@swiftgrid.io>"
+  ],
+  "description": "Range slider for angular js",
+  "main": [
+    "dist/angular-ui-range-slider.js",
+    "dist/angular-ui-range-slider.css"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "slider",
+    "range",
+    "touch",
+    "mobile",
+    "modern",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
