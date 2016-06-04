@@ -35,7 +35,7 @@ function RangeSliderDirective ( RangeSlider, $timeout ) {
 
       div[0].noUiSlider.on('update', function (values, handle) {
         $scope.safeApply(function () {
-          $scope.ngModel = values;
+          $scope.ngModel = (values.length === 1) ? values[0] : values;
 
           if($scope.update) {
             $scope.update (values, handle);

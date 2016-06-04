@@ -25,9 +25,24 @@ function AppController ($scope, $timeout) {
   	}
   };
 
+  $scope.options2 = {
+    start : 2,
+    step : 1,
+    behavior : 'tag-drag',
+    range : {
+      min : 0,
+      max : 2
+    }
+  };
+
   $scope.values = null;
+  $scope.values2 = null;
 
   $timeout(function () {
     $scope.values = ['50.0', '70.0'];
+  }, 3000);
+
+  $timeout(function () {
+    $scope.values2 = 1;
   }, 3000);
 }

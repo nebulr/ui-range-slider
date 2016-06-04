@@ -1,6 +1,6 @@
 {
   "name": "angular-ui-range-slider",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Range slider for angular js",
   "main": "index.js",
   "scripts": {
